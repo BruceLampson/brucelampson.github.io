@@ -82,55 +82,6 @@ h6, .h6 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-.blog-header .btn {
-    margin-top: 60px;
-    font-weight: bold;
-}
-.blog-header .profile-image {
-    margin-right: 30px;
-}
-.blog-header .profile-content .name {
-    color: #49515a;
-    font-size: 38px;
-    margin-bottom: 5px;
-    margin-top: 30px;
-}
-.blog-header .profile-content .desc {
-    color: #778492;
-    font-family: "Lato", arial, sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-.blog-header .profile-content .social a {
-    background: #b0b7bf;
-    width: 36px;
-    height: 36px;
-    display: inline-block;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    color: #fff;
-    text-align: center;
-}
-.blog-header .profile-content .social a:hover {
-    background: #778492;
-}
-.blog-header .profile-content .social a .fa {
-    font-size: 20px;
-    padding-top: 8px;
-}
-
-
-
-
 .blog-title {
     margin-top: 30px;
     margin-bottom: 0;
