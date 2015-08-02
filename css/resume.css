@@ -165,19 +165,6 @@ h6, .h6 {
     margin-bottom: 0;
 }
 
-/*
-.header-divider{
-    background-image: -webkit-linear-gradient(0deg, hsla(175, 70%, 40%, 1) 16.666667%, hsla(150, 70%, 40%, 1) 16.666667%, hsla(150, 70%, 40%, 1) 33.333333%, hsla(75, 70%, 40%, 1) 33.333333%, hsla(75, 70%, 40%, 1) 50%, hsla(25, 70%, 40%, 1) 50%, hsla(25, 70%, 40%, 1) 66.666667%, hsla(10, 70%, 40%, 1) 66.666667%, hsla(10, 70%, 40%, 1) 83.333333%, hsla(300, 70%, 40%, 1) 83.333333%);
-    background-image: -moz-linear-gradient(0deg, hsla(175, 70%, 40%, 1) 16.666667%, hsla(150, 70%, 40%, 1) 16.666667%, hsla(150, 70%, 40%, 1) 33.333333%, hsla(75, 70%, 40%, 1) 33.333333%, hsla(75, 70%, 40%, 1) 50%, hsla(25, 70%, 40%, 1) 50%, hsla(25, 70%, 40%, 1) 66.666667%, hsla(10, 70%, 40%, 1) 66.666667%, hsla(10, 70%, 40%, 1) 83.333333%, hsla(300, 70%, 40%, 1) 83.333333%);
-    background-image: linear-gradient(to right, hsla(175, 70%, 40%, 1) 16.666667%, hsla(150, 70%, 40%, 1) 16.666667%, hsla(150, 70%, 40%, 1) 33.333333%, hsla(75, 70%, 40%, 1) 33.333333%, hsla(75, 70%, 40%, 1) 50%, hsla(25, 70%, 40%, 1) 50%, hsla(25, 70%, 40%, 1) 66.666667%, hsla(10, 70%, 40%, 1) 66.666667%, hsla(10, 70%, 40%, 1) 83.333333%, hsla(300, 70%, 40%, 1) 83.333333%);
-    -webkit-background-size: 100% 5px;
-    -moz-background-size: 100% 5px;
-    background-size: 100% 10px;
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-}
-*/
-
 hr.header-divider:before, hr.header-divider:after {
     position: absolute;
     content: '';
