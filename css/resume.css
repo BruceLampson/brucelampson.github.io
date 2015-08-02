@@ -313,24 +313,19 @@ LANGUAGES
 HOBBIES
 *******************************************/
 .hobby{
-    color: #fff;
     display: inline-block;
     margin-right: 5px;
     margin-bottom: 5px;
     padding: 5px 5px 5px 25px;
-    background: #A75265;
     position: relative;
     font-size: 1.2em;
 }
-.hobby:before{
-    content: "\f004";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    position: absolute;
-    top: 6px;
-    left: 7px;
+
+.label{
+    font-size: 1.5em !important;
+    line-height: 2em !important;
 }
+
 /*******************************************
 MEDIA
 *******************************************/
