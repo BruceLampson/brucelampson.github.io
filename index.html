@@ -30,13 +30,27 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-xs-12">
-            <div id="photo-header" class="text-center">
-                <!-- PHOTO (AVATAR) -->
-                <div id="photo">
-                    <img src="https://avatars2.githubusercontent.com/u/4557356?v=3&s=460" alt="avatar">
-                </div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div id="gallery" class="carousel-inner" role="listbox" >
             </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
     <div class="row">
@@ -386,5 +400,29 @@
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
 <script src="js/analytics.js"></script>
+<script >
+$.ajax({
+    url: 'images.json',
+    success: function(object){
+        var markup = '';
+        for(var item in object){
+
+            var active = (item == 0) ? 'active' : '';
+
+           if(object.hasOwnProperty(item)){
+
+               markup += '<div class="item '+ active +'">' +
+                       '<img src="' +object[item].image+ '" alt="Lorem ipsum">' +
+                       '<div class="carousel-caption">' +
+                       '<h3>Lorem ipsum</h3>' +
+                       '<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>' +
+                       '</div>' +
+                       '</div>'
+           }
+       }
+       $('#gallery').html(markup);
+    }
+});
+</script>
 </body>
 </html>
