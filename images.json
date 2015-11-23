@@ -5,18 +5,18 @@
         "image": "img\/2015\/zendcon\/1.jpg"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "Apigility: Agile APIs",
+        "description": "<a href='http://www.zendcon.com/speakers#node-179' target='_blank'>Matthew Weier O'Phinney</a> is a Principal Engineer at Zend Technologies, and project lead for both Apigility and Zend Framework.",
         "image": "img\/2015\/zendcon\/2.jpg"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "<a href='http://www.zendcon.com/speakers#node-179' target='_blank'>Matthew Weier O'Phinney</a> and I :D",
+        "description": "Chilling at the Hard Rock Cafe and Casino Las vegas!.",
         "image": "img\/2015\/zendcon\/3.jpg"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "Queued Jobs: Simplified",
+        "description": "<a href='http://www.zendcon.com/speakers#node-192' target='_blank'>Taylor Otwell</a> is the creator of the Laravel PHP framework, the Forge server provisioning service, and the Envoyer.io PHP deployment service.",
         "image": "img\/2015\/zendcon\/4.jpg"
     },
     {
@@ -25,13 +25,13 @@
         "image": "img\/2015\/zendcon\/6.jpg"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "Me and <a href='http://www.zendcon.com/speakers#node-314' target='_blank'>Sara Golemon!</a>",
+        "description": "She is an engineer at Facebook and core developer for the PHP Project.",
         "image": "img\/2015\/zendcon\/5.png"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "Lunch time!",
+        "description": "At the Hard Rock Cafe and Casino Las vegas!.",
         "image": "img\/2015\/zendcon\/7.jpg"
     },
     {
@@ -40,13 +40,13 @@
         "image": "img\/2015\/zendcon\/8.jpg"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "ZF2 Service Manager: From Zero to Epic",
+        "description": "<a href='http://www.zendcon.com/speakers#node-179' target='_blank'>Gary Hockin</a> has been a web developer for over 15 years. He's a valued contributor to both Zend Framework 1 and 2, in addition to being on the ZF2 documentation team.",
         "image": "img\/2015\/zendcon\/9.jpg"
     },
     {
-    "title": "",
-    "description": "",
+    "title": "Building a Micro-Framework with Zend Framework 3",
+    "description": "<a href='http://www.zendcon.com/speakers#node-196' target='_blank'>Marco Pivetta</a> is a software consultant at Roave. With over a decade of experience with PHP, he is part of the Zend Framework CR team, Doctrine core team, and is also active in the community as a mentor and supporter.",
     "image": "img\/2015\/zendcon\/10.jpg"
     },
     {
@@ -65,8 +65,8 @@
         "image": "img\/2015\/zendcon\/13.jpg"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "Las Vegas",
+        "description": "The Strip!",
         "image": "img\/2015\/zendcon\/14.jpg"
     }
 ]
